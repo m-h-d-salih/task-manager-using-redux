@@ -43,7 +43,7 @@ useEffect(()=>{
             className="flex-1 p-2 rounded-md border border-gray-300 text-black"
           />
           <button className="flex items-center justify-center bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600" onClick={handleAddTodo}>
-            <FaPlus className="mr-2" /> 
+            <FaPlus /> 
           </button>
         </div>
 
