@@ -21,7 +21,6 @@ const todoSlice = createSlice({
     },
     edittodo:(state,{payload})=>{
       const {edittext,editid}=payload
-      // console.log(editid)
       state.todos[editid].text=edittext
       
       
@@ -34,5 +33,4 @@ const todoSlice = createSlice({
 
 export const { addTodo, deleteTodo,edittodo} = todoSlice.actions;
 export default todoSlice.reducer;
-// export const { addtodo, deleteTodo} = todoslice.actions;
  
